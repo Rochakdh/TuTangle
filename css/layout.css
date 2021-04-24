@@ -39,7 +39,7 @@
     position: absolute;
     float: right;
     top: 15px;
-    left: 340px;
+    left: 320px;
 }
 .btn-green {
     padding: 3px;
@@ -49,3 +49,39 @@
 .input-field{
     border-right: 1px solid #7dd9e8;
 }
+
+.nav-aside{
+    float: right;
+}
+
+.user{
+    text-align: right;
+    margin-bottom: 3px;
+}
+
+.nabar-value ul{
+    list-style: none;
+}
+
+.nabar-value li {
+    padding :0px 10px;
+    float: left;
+    text-decoration: none;
+}
+.nabar-value li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-wrapper{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.menu{
+    height: 100%;
+    width: 1002px;
+    margin: 0 auto;
+    padding: 10px;
+}
+

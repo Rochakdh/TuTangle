@@ -12,3 +12,20 @@ form{
     display: inline;
 }
 
+button:active {
+    border-style: outset;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.br-1{
+    border-right: 1px solid #000000;
+}
+
+.pd-0 {
+    padding-right: 0px !important;
+}
+
