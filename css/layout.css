@@ -1,0 +1,51 @@
+.nav-wrapper{
+    height: 85px;
+    width: 100%;  
+    background-color: #7dd9e8;
+}
+.nav{
+    height: 100%;
+    width: 1002px;
+    margin: 0px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+}
+.search{
+    height: 49px;
+    float: left;
+    width: 384px;
+    position: relative;
+    margin-left: 30px;
+}
+ 
+.cross img{
+    height: 10px;
+    margin-left: 2px;
+   
+}
+.search-bar{
+    width: 300px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    float: left;
+    background-color: #caeff7;
+    
+}
+.search-btn{
+    position: absolute;
+    float: right;
+    top: 15px;
+    left: 340px;
+}
+.btn-green {
+    padding: 3px;
+    background-color: #255056;
+    float: left;
+}
+.input-field{
+    border-right: 1px solid #7dd9e8;
+}
