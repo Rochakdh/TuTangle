@@ -36,3 +36,13 @@ button:hover{
 .pdl-0{
     padding-left: 0px !important;
 }
+.no-list-style{
+    list-style: none !important;
+}
+
+.t-blue{
+    color:#7dd9e8;
+}
+.t-green{
+    color: #8fb057;
+}

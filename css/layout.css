@@ -70,7 +70,6 @@
 }
 .nabar-value li a {
     text-decoration: none;
-    color: #000000;
 }
 
 .menu-wrapper{
@@ -93,21 +92,20 @@
 }
 
 .body-container-wrapper{
-    width: auto;
-    height: 100% ;
+    width: 100%;
+    height: auto;
     margin-top: 40px;
 }
 .body-container{
-    height: auto;
     width: 938px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 .body-aside{
-    height:100%;
+    height: 700px;
     width: 194;
     background-color: whitesmoke;
     float: left;
-
+    font-size: 11px;
 }
 .body-main{
     height: auto;
@@ -117,7 +115,7 @@
 }
 .body-aside ul li {
     list-style: none;
-    padding:20px;
+    padding:10px;
 }
 .body-aside-header{
     background-color: #7dd9e8;
@@ -134,6 +132,11 @@
 }
 .body-aside-menu:hover{
     background-color: #fff;
+}
+.recent-text{
+    height: 20px;
+    width: 90%;
+    float: left;
 }
 
  
@@ -181,5 +184,32 @@
 }
 .profile-detail{
     text-align: justify;
+    font-size: 13px;
+    line-height: 20px;
+}
+.profile-detail h4{
+    font-size: 14px;
+}
+.profile-detail a{
 
+
+}
+
+.footer-menu-wrapper{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: #727272;
+    color:#ffffff;
+}
+
+
+.footer-menu-wrapper ul li a{
+    color: #ffffff;
+}
+
+.footer-menu-wrapper ul li{
+    list-style: disc;
+    padding: 0px;
+    margin-right: 40px;
 }
