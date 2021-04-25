@@ -2,8 +2,13 @@
     margin :0 ;
     padding:0;
     box-sizing:border-box;
-    font-family: Arial,"Times New Roman";
 }
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  }
 
 
 .clearfix::after {

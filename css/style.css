@@ -4,7 +4,6 @@ input {
     font: Arial;
     border: none;
     background-color: #caeff7;
-    box-sizing: border-box;
     width: 280px;
 }
 form{
