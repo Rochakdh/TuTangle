@@ -8,47 +8,70 @@
     width: 942px;
     margin: 0px auto;
     padding: 20px;
-    box-sizing: border-box;
 }
 .logo{
     float: left;
 }
 .search{
+    width: 500px;
     height: 49px;
     float: left;
-    width: 384px;
+    top: 3px;
+    margin-left: 15px;
     position: relative;
-    margin-left: 30px;
 }
- 
+.search-side-img{
+    position: absolute; 
+    top: 14px;
+    left: 9px;
+}
+
 .cross img{
+    position: absolute; 
     height: 10px;
-    margin-left: 2px;
-   
+    top: 5px;
+    right: 4px;
 }
 .search-bar{
-    width: 300px;
     position: absolute;
-    top: 15px;
+    top: 15px; 
     left: 15px;
-    float: left;
     background-color: #caeff7;
-    
 }
-.search-btn{
+.serach-icon{
     position: absolute;
-    float: right;
     top: 15px;
+    left: 295px;
+}
+
+.search-btn{
+    font-size: 12px;
+    margin-left: 9px;
+    position: absolute;
+    top: 14px;
     left: 320px;
 }
-.btn-green {
-    padding: 3px;
-    background-color: #255056;
+.search-btn-left {
     float: left;
 }
+.search-btn-right {
+    float: left;
+}
+
+ 
+.search-btn a {
+    float: left;
+    height: 20px;
+    background-color: #255056;
+    text-decoration: none;
+    color: white;
+    padding-top: 3px;
+}
+
 .input-field{
     border-right: 1px solid #7dd9e8;
 }
+ 
 
 .nav-aside{
     font-size:12px;
@@ -237,3 +260,5 @@
 .profile-detail b{
     font-size: 10px;
 }
+
+
