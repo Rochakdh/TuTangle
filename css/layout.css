@@ -5,7 +5,7 @@
 }
 .nav{
     height: 100%;
-    width: 1002px;
+    width: 942px;
     margin: 0px auto;
     padding: 20px;
     box-sizing: border-box;
@@ -51,6 +51,7 @@
 }
 
 .nav-aside{
+    font-size:12px;
     float: right;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .nabar-value li {
-    padding :0px 10px;
+    padding :0px 8px;
     float: left;
     text-decoration: none;
 }
@@ -77,18 +78,24 @@
     width: 100%;
     background-color: whitesmoke;
 }
-.menu{
+.menu {
     height: 100%;
-    width: 938px;
+    width: 942px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10 20px;
+    font-size: 13px;
+    font-weight: 510;
 }
-
+ 
 .menu-aside{
     text-align: right;
 }
 .menu-aside img{
-    margin-left: 40px;
+    margin:0 10px;
+}
+.menu-aside span{
+    text-align: right;
+    margin-left: 30px;
 }
 
 .body-container-wrapper{
@@ -97,15 +104,20 @@
     margin-top: 40px;
 }
 .body-container{
-    width: 938px;
+    height: 606px;
+    width: 942px;
     margin: 0px auto;
 }
 .body-aside{
-    height: 700px;
+    height: 606px;
     width: 194;
     background-color: whitesmoke;
     float: left;
     font-size: 11px;
+}
+
+.body-aside-right{
+    width: 176px !important;
 }
 .body-main{
     height: auto;
@@ -120,7 +132,7 @@
 .body-aside-header{
     background-color: #7dd9e8;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 .body-aside li img{
@@ -129,6 +141,7 @@
 }
 .body-aside a{
     text-decoration: none;
+    color: black;
 }
 .body-aside-menu:hover{
     background-color: #fff;
@@ -151,7 +164,7 @@
     float: left;
     width: 50%;
     text-align: center;
-    height: 40px;
+    height: 34px;
     background-color: whitesmoke;
     padding:10px 0;
 }
@@ -165,6 +178,7 @@
     border-bottom: 2px solid #7dd9e8;
 }
 .body-entry-list{
+    height: 34px;
     width: 110px;
     list-style: none;
     float: left;
@@ -175,20 +189,26 @@
 }
 
 .profile-wall{
-    padding:20px 0px;
-    border-bottom: 1px solid grey;
+    height: 100px;
+    padding:15px 0px;
+    border-bottom: 1px solid #727272;
 }
 .profile-pic{
     float: left;
     margin-right: 20px;
 }
+.profile-pic img {
+    height: 70px !important;
+    width: 70px !important;
+}
 .profile-detail{
     text-align: justify;
     font-size: 13px;
-    line-height: 20px;
+    float: left;
 }
 .profile-detail h4{
     font-size: 14px;
+    padding:4px 0;
 }
 .profile-detail a{
 
@@ -196,8 +216,9 @@
 }
 
 .footer-menu-wrapper{
-    margin-top: 20px;
-    height: 40px;
+    margin-top: 33px;
+    height: 46px;
+    padding: 5px 0px;
     width: 100%;
     background-color: #727272;
     color:#ffffff;
@@ -210,6 +231,9 @@
 
 .footer-menu-wrapper ul li{
     list-style: disc;
-    padding: 0px;
-    margin-right: 40px;
+    margin-right: 32px;
+}
+
+.profile-detail b{
+    font-size: 10px;
 }
